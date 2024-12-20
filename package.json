@@ -33,7 +33,7 @@
   },
   "engines": {
     "node": "^20.0.0",
-    "npm": ">=6.0.0"
+    "npm": "^10.0.0"
   },
   "strapi": {
     "uuid": "66d3e94b-f387-45bc-beb9-6a8c3e0da226"

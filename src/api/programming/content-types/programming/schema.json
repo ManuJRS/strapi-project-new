@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "programmings",
+  "info": {
+    "singularName": "programming",
+    "pluralName": "programmings",
+    "displayName": "Programming"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

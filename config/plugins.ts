@@ -17,6 +17,6 @@ export default ({ env }) => ({
     },
   },
   seo: {
-    enabled: false,
+    enabled: true,
   },
 });

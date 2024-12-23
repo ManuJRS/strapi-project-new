@@ -4,27 +4,156 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home"
+    "displayName": "Home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "herotext": {
       "type": "string",
       "required": true
     },
-    "image": {
+    "heromedia": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files"
-      ],
-      "type": "media",
-      "multiple": true,
+      ]
+    },
+    "textintro": {
+      "type": "blocks",
       "required": true
     },
-    "text": {
+    "titleintro": {
+      "type": "string",
+      "required": true
+    },
+    "titledata": {
+      "type": "string",
+      "required": true
+    },
+    "textdata": {
+      "type": "text",
+      "required": true
+    },
+    "dataone": {
+      "type": "string",
+      "required": true
+    },
+    "datalabelone": {
+      "type": "blocks",
+      "required": true
+    },
+    "datatwo": {
+      "type": "string",
+      "required": true
+    },
+    "datalabeltwo": {
+      "type": "blocks",
+      "required": true
+    },
+    "datathree": {
+      "type": "string",
+      "required": true
+    },
+    "datalabelthree": {
+      "type": "blocks",
+      "required": true
+    },
+    "cardimgone": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "cardtitleone": {
+      "type": "string",
+      "required": true
+    },
+    "textcardone": {
+      "type": "blocks",
+      "required": true
+    },
+    "cardimgtwo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "cardtitletwo": {
+      "type": "string",
+      "required": true
+    },
+    "textcardtwo": {
+      "type": "blocks",
+      "required": true
+    },
+    "cardimgthree": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "cardtitlthree": {
+      "type": "string",
+      "required": true
+    },
+    "textcardthree": {
+      "type": "blocks",
+      "required": true
+    },
+    "endcomponenttitle": {
+      "type": "string",
+      "required": true
+    },
+    "endcomponentimg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "buttondata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "buttoncard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "buttonend": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "btnintro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "titlecards": {
+      "type": "string",
+      "required": true
+    },
+    "introcards": {
       "type": "blocks",
       "required": true
     }

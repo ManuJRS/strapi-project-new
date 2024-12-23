@@ -537,6 +537,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
 export interface ApiHomeHome extends Struct.SingleTypeSchema {
   collectionName: 'homes';
   info: {
+    description: '';
     displayName: 'Home';
     pluralName: 'homes';
     singularName: 'home';
@@ -545,17 +546,47 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    btnintro: Schema.Attribute.Component<'shared.button', false>;
+    buttoncard: Schema.Attribute.Component<'shared.button', false>;
+    buttondata: Schema.Attribute.Component<'shared.button', false>;
+    buttonend: Schema.Attribute.Component<'shared.button', false>;
+    cardimgone: Schema.Attribute.Media<'images' | 'files'> &
+      Schema.Attribute.Required;
+    cardimgthree: Schema.Attribute.Media<'images' | 'files'> &
+      Schema.Attribute.Required;
+    cardimgtwo: Schema.Attribute.Media<'images' | 'files'> &
+      Schema.Attribute.Required;
+    cardtitleone: Schema.Attribute.String & Schema.Attribute.Required;
+    cardtitletwo: Schema.Attribute.String & Schema.Attribute.Required;
+    cardtitlthree: Schema.Attribute.String & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    image: Schema.Attribute.Media<'images' | 'files', true> &
+    datalabelone: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    datalabelthree: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    datalabeltwo: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    dataone: Schema.Attribute.String & Schema.Attribute.Required;
+    datathree: Schema.Attribute.String & Schema.Attribute.Required;
+    datatwo: Schema.Attribute.String & Schema.Attribute.Required;
+    endcomponentimg: Schema.Attribute.Media<'images' | 'files'> &
       Schema.Attribute.Required;
+    endcomponenttitle: Schema.Attribute.String & Schema.Attribute.Required;
+    heromedia: Schema.Attribute.Media<'images' | 'files'> &
+      Schema.Attribute.Required;
+    herotext: Schema.Attribute.String & Schema.Attribute.Required;
+    introcards: Schema.Attribute.Blocks & Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::home.home'> &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    text: Schema.Attribute.Blocks & Schema.Attribute.Required;
-    title: Schema.Attribute.String & Schema.Attribute.Required;
+    textcardone: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    textcardthree: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    textcardtwo: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    textdata: Schema.Attribute.Text & Schema.Attribute.Required;
+    textintro: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    titlecards: Schema.Attribute.String & Schema.Attribute.Required;
+    titledata: Schema.Attribute.String & Schema.Attribute.Required;
+    titleintro: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

@@ -7,12 +7,12 @@
   },
   "options": {},
   "attributes": {
-    "btntext": {
+    "btntextdata": {
       "type": "string",
       "required": true,
       "default": "Ver más"
     },
-    "urlbtn": {
+    "urlbtndata": {
       "type": "string",
       "required": true,
       "default": "https://www.youtube.com/"

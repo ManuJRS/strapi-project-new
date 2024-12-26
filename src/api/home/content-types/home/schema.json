@@ -129,32 +129,24 @@
         "files"
       ]
     },
-    "buttondata": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.button"
-    },
-    "buttoncard": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.button"
-    },
-    "buttonend": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.button"
-    },
-    "btnintro": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.button"
-    },
     "titlecards": {
       "type": "string",
       "required": true
     },
     "introcards": {
       "type": "blocks",
+      "required": true
+    },
+    "buttonIntro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button",
+      "required": true
+    },
+    "buttonData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button-data",
       "required": true
     }
   }

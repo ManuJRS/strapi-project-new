@@ -1,18 +1,18 @@
 {
   "collectionName": "components_shared_buttons",
   "info": {
-    "displayName": "button",
+    "displayName": "buttonIntro",
     "icon": "shield",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "btntextdata": {
+    "btntextintro": {
       "type": "string",
       "required": true,
       "default": "Ver más"
     },
-    "urlbtndata": {
+    "urlbtnintro": {
       "type": "string",
       "required": true,
       "default": "https://www.youtube.com/"

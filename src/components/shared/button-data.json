@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_button_data",
+  "info": {
+    "displayName": "buttonData",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "btntextdata": {
+      "type": "string",
+      "required": true
+    },
+    "urlbtndata": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "max",
+        "min"
+      ]
+    },
+    "Countries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.countries"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cardshero"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_shared_content_colums",
+  "info": {
+    "displayName": "content-colum",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "StartDate": {
+      "type": "datetime"
+    },
+    "EndDate": {
+      "type": "datetime"
+    },
+    "Abtesting": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b"
+      ]
+    },
+    "bgColor": {
+      "type": "boolean",
+      "default": false
+    },
+    "decorativeLine": {
+      "type": "boolean",
+      "default": true
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "btnmodal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "ButtonExternal": {
+      "type": "string"
+    },
+    "btninternal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards"
+    },
+    "country": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.countries"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

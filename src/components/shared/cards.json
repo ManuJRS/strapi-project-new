@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_cards",
+  "info": {
+    "displayName": "cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "btnExternal": {
+      "type": "string"
+    },
+    "btninternal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "btnmodal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}

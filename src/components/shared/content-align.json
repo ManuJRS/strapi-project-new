@@ -1,0 +1,140 @@
+{
+  "collectionName": "components_shared_content_aligns",
+  "info": {
+    "displayName": "content-align",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Layout": {
+      "type": "enumeration",
+      "enum": [
+        "list",
+        "align"
+      ]
+    },
+    "Align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Tag": {
+      "type": "string"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "List": {
+      "type": "text"
+    },
+    "ButtonLeftInternal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "ButtonRightInternal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "ButtonLeftModal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "ButtonRightModal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "Countries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.countries"
+    },
+    "iconlist": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "bullet",
+        "check"
+      ]
+    },
+    "viewmore": {
+      "type": "string"
+    },
+    "viewless": {
+      "type": "string"
+    },
+    "stayfrom": {
+      "type": "date"
+    },
+    "stayto": {
+      "type": "date"
+    },
+    "btnltext": {
+      "type": "string"
+    },
+    "btnlexternal": {
+      "type": "string"
+    },
+    "btnrtext": {
+      "type": "string"
+    },
+    "btnrexternal": {
+      "type": "string"
+    },
+    "startdate": {
+      "type": "datetime"
+    },
+    "enddate": {
+      "type": "datetime"
+    },
+    "bookfrom": {
+      "type": "date"
+    },
+    "bookto": {
+      "type": "date"
+    },
+    "decorativeline": {
+      "type": "boolean",
+      "default": true
+    },
+    "textbook": {
+      "type": "string"
+    },
+    "bookstart": {
+      "type": "string"
+    },
+    "textstay": {
+      "type": "string"
+    },
+    "staystart": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "ab_testing": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b"
+      ]
+    }
+  }
+}

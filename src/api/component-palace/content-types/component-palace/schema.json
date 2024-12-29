@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "component_palaces",
+  "info": {
+    "singularName": "component-palace",
+    "pluralName": "component-palaces",
+    "displayName": "ComponentPalace",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentcolum": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.content-colum",
+        "shared.hero",
+        "shared.backgroung",
+        "shared.content-align"
+      ]
+    }
+  }
+}

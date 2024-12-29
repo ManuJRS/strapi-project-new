@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_countries",
+  "info": {
+    "displayName": "countries"
+  },
+  "options": {},
+  "attributes": {
+    "Country": {
+      "type": "customField",
+      "default": "[]",
+      "required": true,
+      "options": [
+        "USA",
+        "CAD",
+        "GBR",
+        "ITA",
+        "JAM",
+        "EUR",
+        "RESTO_DEL_MUNDO",
+        "MEX",
+        "COL",
+        "BRA",
+        "LATAM"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}

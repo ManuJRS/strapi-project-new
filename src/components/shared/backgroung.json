@@ -1,0 +1,147 @@
+{
+  "collectionName": "components_shared_backgroungs",
+  "info": {
+    "displayName": "backgroung",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Layout": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "box",
+        "box-full",
+        "box-map",
+        "offer"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Iframe": {
+      "type": "text"
+    },
+    "Tag": {
+      "type": "string"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Longitud": {
+      "type": "integer"
+    },
+    "Latitud": {
+      "type": "integer"
+    },
+    "Zoom": {
+      "type": "integer",
+      "default": 8
+    },
+    "ButtonLeftInternal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "ButtonRightInternal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "ButtonLeftModal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "ButtonRightModal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "Countries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.countries"
+    },
+    "bookfrom": {
+      "type": "date"
+    },
+    "bookto": {
+      "type": "date"
+    },
+    "stayfrom": {
+      "type": "date"
+    },
+    "stayto": {
+      "type": "date"
+    },
+    "iconvirtualtour": {
+      "type": "boolean",
+      "default": false
+    },
+    "startdate": {
+      "type": "datetime"
+    },
+    "enddate": {
+      "type": "datetime"
+    },
+    "btnltext": {
+      "type": "string"
+    },
+    "btnlexternal": {
+      "type": "string"
+    },
+    "btnrtext": {
+      "type": "string"
+    },
+    "btnrexternal": {
+      "type": "string"
+    },
+    "decorativeline": {
+      "type": "boolean",
+      "default": true
+    },
+    "aligntext": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left",
+        "right"
+      ]
+    },
+    "boxtitle": {
+      "type": "string"
+    },
+    "boxdescription": {
+      "type": "text"
+    },
+    "textbook": {
+      "type": "string"
+    },
+    "textstay": {
+      "type": "string"
+    },
+    "staystart": {
+      "type": "string"
+    },
+    "bookstart": {
+      "type": "string"
+    },
+    "ab_testing": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b"
+      ]
+    }
+  }
+}

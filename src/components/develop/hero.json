@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_develop_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

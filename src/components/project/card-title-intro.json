@@ -15,8 +15,13 @@
       "type": "text",
       "required": true
     },
-    "CardButton": {
-      "type": "string"
+    "CardButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "CardButtonLink": {
+      "type": "string",
+      "required": true
     }
   }
 }

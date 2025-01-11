@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_project_card_data",
+  "info": {
+    "displayName": "CardData",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleData": {
+      "type": "string",
+      "required": true
+    },
+    "TextData": {
+      "type": "text",
+      "required": true
+    },
+    "SpanNumberOne": {
+      "type": "string",
+      "required": true
+    },
+    "SpanNumberTwo": {
+      "type": "string",
+      "required": true
+    },
+    "SpanNumberThree": {
+      "type": "string",
+      "required": true
+    },
+    "SpanTextOne": {
+      "type": "string",
+      "required": true
+    },
+    "SpanTextTwo": {
+      "type": "string",
+      "required": true
+    },
+    "ButtonDataText": {
+      "type": "string",
+      "required": true
+    },
+    "SpanTextThree": {
+      "type": "string",
+      "required": true
+    },
+    "ButtonDataLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

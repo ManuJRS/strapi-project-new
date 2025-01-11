@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_project_our_projects_zones",
+  "info": {
+    "displayName": "OurProjectsZone",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleProjectsZone": {
+      "type": "string",
+      "required": true
+    },
+    "TextProjectsZone": {
+      "type": "text",
+      "required": true
+    },
+    "ProjectOne": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::portfolio.portfolio"
+    },
+    "ProjectTwo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::portfolio.portfolio"
+    },
+    "ProjectThree": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::portfolio.portfolio"
+    }
+  }
+}

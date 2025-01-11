@@ -15,12 +15,32 @@
     "Hero": {
       "type": "component",
       "repeatable": false,
-      "component": "project.hero"
+      "component": "project.hero",
+      "required": true
     },
     "Card": {
       "type": "component",
       "repeatable": false,
-      "component": "project.card-title-intro"
+      "component": "project.card-title-intro",
+      "required": true
+    },
+    "DataZone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.card-data",
+      "required": true
+    },
+    "ProjectZone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.our-projects-zone",
+      "required": true
+    },
+    "UsZone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.us-zone",
+      "required": true
     }
   }
 }

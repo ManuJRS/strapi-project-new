@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_project_us_zones",
+  "info": {
+    "displayName": "UsZone",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "TitleUsZone": {
+      "type": "string",
+      "required": true
+    },
+    "ImageUsZone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "ButtonUsText": {
+      "type": "string",
+      "required": true
+    },
+    "ButtonUsLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

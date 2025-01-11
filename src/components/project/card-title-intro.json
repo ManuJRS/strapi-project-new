@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_project_card_title_intros",
+  "info": {
+    "displayName": "CardTitleIntro",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "CardText": {
+      "type": "text",
+      "required": true
+    },
+    "CardButton": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_project_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "HeroDesktop": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "HeroMobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

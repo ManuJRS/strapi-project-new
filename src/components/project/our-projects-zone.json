@@ -15,19 +15,9 @@
       "type": "text",
       "required": true
     },
-    "ProjectOne": {
+    "projects": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::portfolio.portfolio"
-    },
-    "ProjectTwo": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::portfolio.portfolio"
-    },
-    "ProjectThree": {
-      "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::portfolio.portfolio"
     }
   }

@@ -6,47 +6,5 @@
     "description": ""
   },
   "options": {},
-  "attributes": {
-    "TitlePortfolio": {
-      "type": "string",
-      "required": true,
-      "maxLength": 120,
-      "minLength": 1
-    },
-    "HeroDesktop": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "HeroPreview": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "private": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "HeroMobile": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "ShortIntroPortfolio": {
-      "type": "text",
-      "required": true
-    }
-  }
+  "attributes": {}
 }

@@ -12,10 +12,44 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "HeroPortfolio": {
-      "type": "component",
-      "repeatable": false,
-      "component": "portfolio.portfolio-hero"
+    "TitlePortfolio": {
+      "type": "string",
+      "required": true
+    },
+    "HeroDesktop": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "HeroMobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "HeroPreview": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "ShortIntroPortfolio": {
+      "type": "text",
+      "required": true
     }
   }
 }

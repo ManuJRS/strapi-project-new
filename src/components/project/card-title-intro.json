@@ -1,25 +1,25 @@
 {
   "collectionName": "components_project_card_title_intros",
   "info": {
-    "displayName": "CardTitleIntro",
-    "icon": "archive",
+    "displayName": "Introduction",
+    "icon": "arrowDown",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "CardTitle": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "CardText": {
+    "text": {
       "type": "text",
       "required": true
     },
-    "CardButtonText": {
+    "button": {
       "type": "string",
       "required": true
     },
-    "CardButtonLink": {
+    "link": {
       "type": "string",
       "required": true
     }

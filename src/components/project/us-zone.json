@@ -1,30 +1,31 @@
 {
   "collectionName": "components_project_us_zones",
   "info": {
-    "displayName": "UsZone",
-    "icon": "eye"
+    "displayName": "Inside",
+    "icon": "eye",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "TitleUsZone": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "ImageUsZone": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
-    "ButtonUsText": {
+    "button": {
       "type": "string",
       "required": true
     },
-    "ButtonUsLink": {
+    "link": {
       "type": "string",
       "required": true
     }

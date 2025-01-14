@@ -12,35 +12,34 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Hero": {
+    "hero": {
       "type": "component",
       "repeatable": false,
       "component": "project.hero",
       "required": true
     },
-    "Card": {
+    "introduction": {
       "type": "component",
       "repeatable": false,
       "component": "project.card-title-intro",
       "required": true
     },
-    "DataZone": {
+    "statistics": {
       "type": "component",
       "repeatable": false,
       "component": "project.card-data",
       "required": true
     },
-    "ProjectZone": {
+    "achievements": {
       "type": "component",
       "repeatable": false,
       "component": "project.our-projects-zone",
       "required": true
     },
-    "UsZone": {
+    "inside": {
       "type": "component",
       "repeatable": false,
-      "component": "project.us-zone",
-      "required": true
+      "component": "project.us-zone"
     }
   }
 }

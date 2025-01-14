@@ -1,34 +1,35 @@
 {
   "collectionName": "components_project_heroes",
   "info": {
-    "displayName": "Hero",
-    "icon": "alien"
+    "displayName": "hero",
+    "icon": "alien",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "HeroDesktop": {
+    "heroDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
-    "HeroMobile": {
+    "heroMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }

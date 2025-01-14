@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_buttons",
+  "info": {
+    "displayName": "Stats",
+    "icon": "connector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,49 +1,31 @@
 {
   "collectionName": "components_project_card_data",
   "info": {
-    "displayName": "CardData",
-    "icon": "attachment",
+    "displayName": "Statistics",
+    "icon": "grid",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "TitleData": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "TextData": {
+    "text": {
       "type": "text",
       "required": true
     },
-    "SpanNumberOne": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.buttons",
+      "required": true
+    },
+    "button": {
       "type": "string",
       "required": true
     },
-    "SpanNumberTwo": {
-      "type": "string",
-      "required": true
-    },
-    "SpanNumberThree": {
-      "type": "string",
-      "required": true
-    },
-    "SpanTextOne": {
-      "type": "string",
-      "required": true
-    },
-    "SpanTextTwo": {
-      "type": "string",
-      "required": true
-    },
-    "ButtonDataText": {
-      "type": "string",
-      "required": true
-    },
-    "SpanTextThree": {
-      "type": "string",
-      "required": true
-    },
-    "ButtonDataLink": {
+    "link": {
       "type": "string",
       "required": true
     }

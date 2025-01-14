@@ -1,17 +1,17 @@
 {
   "collectionName": "components_project_our_projects_zones",
   "info": {
-    "displayName": "OurProjectsZone",
-    "icon": "chartBubble",
+    "displayName": "Achievements",
+    "icon": "thumbUp",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "TitleProjectsZone": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "TextProjectsZone": {
+    "text": {
       "type": "text",
       "required": true
     },

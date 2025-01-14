@@ -12,42 +12,42 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "TitlePortfolio": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "HeroDesktop": {
+    "heroDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
+      ]
+    },
+    "heroMobile": {
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "HeroMobile": {
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
+      ]
+    },
+    "heroPreview": {
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "HeroPreview": {
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
-    "ShortIntroPortfolio": {
+    "intro": {
       "type": "text",
       "required": true
     }

@@ -40,6 +40,11 @@
       "type": "component",
       "repeatable": false,
       "component": "project.us-zone"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
